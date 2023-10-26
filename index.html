@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Editor de fotos</title>
+    <link href="./lightbox2-2.11.4/src/css/lightbox.css" rel="stylesheet" />
+</head>
+<body>
+    <header><h1>Editor de fotos con JS</h1></header>
+    <div class="imagen" id="imagenContainer">
+        <img id="imagen" src="" alt="Imagen">
+    </div>
+    <div class="editor" id="imagenDet">
+        <h2>Editor de imagen</h2>
+        <p id="imagenTitulo"></p>
+        <p id="imagenDescripcion"></p>
+       <p>R <input type="range" name="" id="red"></p>
+       <p>G<input type="range" name="" id="green"></p>
+       <p>B<input type="range" name="" id="blue"></p>
+       <input class="nombre" type="text" name="" id="nombreImagen" placeholder="Nombre de la imagen">
+       <input type="submit" value="Enviar" id="enviar">
+       <input type="file" id="seleccionarArchivo" accept="image/*">
+       <div class="galeria" id="galeria"></div>
+
+<script src="./main.js"></script>
+<script src="./lightbox2-2.11.4/dist/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
+
